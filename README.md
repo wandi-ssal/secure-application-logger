@@ -16,11 +16,11 @@ How to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SASL-U
 * Details for [LoggerAppsMsg()](Wandi-SASL-API-LoggerAppsMsg-Function.pdf) function.
 * Details for [LoggerShutDown()](Wandi-SASL-API-LoggerShutDown-Function.pdf) function.
 
-Setup [LoggerMessageDefines.txt](Wandi-SASL-LoggerMessageDefines.pdf) file used by Wandi-SASL API functions.
+Setup [LoggerMessageDefines.txt](Wandi-SASL-LoggerMessageDefines.pdf) file used by Wandi-SSAL API functions.
 
-Refer to [Wandi-SASL-examples.c](Wandi-SASL-examples.c) for application examples.
+Refer to [Wandi-SSAL-examples.c](Wandi-SASL-examples.c) for application examples.
 
-Curent and expanding list of [Wandi-SASL Capabilities](https://www.istech.com/?page_id=570) for Free and Paid versions.
+Curent and expanding list of [Wandi-SSAL Capabilities](https://www.istech.com/?page_id=570) for Free and Paid versions.
 [^1]: Wandi-SSAL Free Version support capabilities 1 and 2 only.
 
 For Ubuntu Linux OS [Download Install_dst.zip](./Install_dst.zip) file and refer to the **README-n-Install.sh** file for further installation and execution instructions.
