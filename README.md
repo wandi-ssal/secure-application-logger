@@ -6,10 +6,10 @@
 
 Software applications use log messages to monitor, analyze and diagnose execution flow. Often these messages contain critical and sensitive information about the behavior and use of data. Current approaches do not do enough to protect this information. Wandi-SSAL provides a secure and adaptable approach to address this and many other logging limitations and challenges. This free version of Wandi-SSAL capabilities is based on a [Patent Software Design Technology](https://www.istech.com/) that:
 
-1. uses a simple C-Program print() style function interface.
-2. analyzes for erroneous and malicious use[^1].
-3. protects before and after saved to disk.
-4. ensures confidentiality, integrity, and authenticity.
+1. uses C-Program print() style interface that is often used by programmers to log messages.
+2. analyzes log message input arguments for erroneous and malicious use[^1].
+3. protects log message before and after saved to disk.
+4. ensures log message confidentiality, integrity, and authenticity.
 
 How to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-Using-API-Function.pdf)
 * Details for [LoggerStartUp()](Wandi-SSAL-API-LoggerStartUp-Function.pdf) function.
