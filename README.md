@@ -20,7 +20,7 @@ How to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-U
 
 Setup [LoggerMessageDefines.txt](Wandi-SSAL-LoggerMessageDefines.pdf) file used by Wandi-SSAL API functions.
 
-Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for application examples.
+Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application examples.
 
 Curent and expanding list of [Wandi-SSAL Capabilities](https://www.istech.com/?page_id=570) for Free and Paid versions.
 [^1]: Wandi-SSAL Free Version support capabilities 1 and 2 only.
