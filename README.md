@@ -10,6 +10,7 @@ Software applications use log messages to monitor, analyze and diagnose executio
 2. analyzes log message input arguments for erroneous and malicious use[^1].
 3. protects log message before and after saved to disk.
 4. ensures log message confidentiality, integrity, and authenticity.
+5. allows only authenticated users to view protected log messges.
 
 How to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-Using-API-Function.pdf)
 * Details for [LoggerStartUp()](Wandi-SSAL-API-LoggerStartUp-Function.pdf) function.
