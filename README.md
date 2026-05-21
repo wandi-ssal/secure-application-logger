@@ -11,7 +11,7 @@ Software applications use log messages to monitor, analyze and diagnose executio
 3. protects log message before and after saved to disk.
 4. ensures log message confidentiality, integrity, and authenticity.
 5. allows only authenticated users to view protected log messges.
-6. uses a [Bound Capability Parameter approach](Wandi-SSAL-Bound-Capabilities.pdf) to ensure robust and eliable API functions.
+6. uses a [Bound Capability Parameter Validation](Wandi-SSAL-Bound-Capabilities.pdf) to ensure robust and eliable API functions.
 
 How to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-Using-API-Function.pdf)
 * Details for [LoggerStartUp()](Wandi-SSAL-API-LoggerStartUp-Function.pdf) function.
