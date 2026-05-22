@@ -1,24 +1,20 @@
 <section
 id="free-version-of-wandi-sasl-is-a-c-program-application-utility-that-validates-and-protects-application-log-messages-during-development-and-deployment"
 data-align="center">
-<h2>Free version of Wandi-SSAL (Secure Software Adaptable Logger) is a C-Program application framework that
-validates and protects application log messages during development and
+<h2>Free version of Wandi-SSAL (Secure Software Adaptable Logger) is a C-Program application library that
+validates and generates application log messages during development and
 deployment</h2>
 </section>
-<p>Software applications generate log messages to help monitor, analyze and
-diagnose execution flow. Often these messages contain critical and
-sensitive information about the behavior and use of data. Current
-approaches do not do enough to protect this information. Wandi-SSAL
-provides a rich set of capabilities that can be dynamically configured to address this and many other
-logging limitations and challenges. Wandi-SSAL
+<p>This free version of Wandi-SSAL
 capabilities is based on a <a href="https://www.istech.com/">Patent
 Software Design Technology</a> that:</p>
 <ol type="1">
-<li>uses a simple C-Program print() style function interface often used by programmer to lo meesages.</li>
-<li>analyzes log message input arguments for erroneous and malicious use.</li>
-<li>protects lgo message before and after saved to disk.</li>
-<li>ensures log message confidentiality, integrity, and authenticity.</li>
-<li>allows only authenticated users to access protected log messages,</li>
+<li>uses C-Program print() style interface that is often used by programmers to log messages.</li>
+<li>decodes log message strings and arguments into element/value pairs.</li>
+<li>analyzes element/value pairs for accurate use of log message arguments.</li>
+<li>validates element/value pairs for unintentional programmer’s misuse of log argument.</li>
+<li>checks element/value pairs for some attackers printf() malicious patterns.</li>
+<li>generates log messages for development and deployment environments</li>
 <li>uses a <a href="Wandi-SSAL-Bound-Capabilities.pdf">Bound Capability Validation</a> to ensure robust and reliable API functions.</li>
 </ol>
 <p>Quick start using <a href="Wandi-SSAL-Using-API-Function.pdf">Wandi-SSAL API
