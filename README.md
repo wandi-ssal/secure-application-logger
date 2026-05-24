@@ -11,7 +11,6 @@ This free version of Wandi-SSAL capabilities is based on a [Patent Software Desi
 3. analyzes element/value pairs for accurate use of log message arguments.
 4. validates element/value pairs for unintentional programmer’s misuse of log argument.
 5. checks element/value pairs for some attackers printf() malicious patterns.
-6. uses [Bound Capability Validation](Wandi-SSAL-Bound-Capabilities.pdf) to ensure robust and reliable API functions.
 7. generates log messages for development and deployment environments.
 8. uses a [Bound Capability Parameter Validation](Wandi-SSAL-Bound-Capabilities.pdf) to ensure robust, fail-safe and reliable API functions.
 
