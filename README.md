@@ -14,7 +14,7 @@ This free version of Wandi-SSAL capabilities is based on a [Patent Software Desi
 7. generates log messages for development and deployment environments.
 8. uses a [Bound Capability Parameter Validation](Wandi-SSAL-Bound-Capabilities.pdf) to ensure robust, fail-safe and reliable API functions.
 
-How to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-Using-API-Function.pdf)
+Quick how to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-Using-API-Function.pdf)
 * Details for [LoggerStartUp()](Wandi-SSAL-API-LoggerStartUp-Function.pdf) function.
 * Details for [LoggerAppsMsg()](Wandi-SSAL-API-LoggerAppsMsg-Function.pdf) function.
 * Details for [LoggerShutDown()](Wandi-SSAL-API-LoggerShutDown-Function.pdf) function.
