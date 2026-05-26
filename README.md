@@ -21,7 +21,7 @@ Quick how to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-
 
 Setup [LoggerMessageDefines.txt](Wandi-SSAL-LoggerMessageDefines.pdf) file used by Wandi-SSAL API functions.
 
-Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application examples.
+Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application examples using the Bound Capability Parameter Validation.
 
 For Ubuntu Linux OS download [Wandi-SSAL-Install_dst.zip](./Wandi-SSAL-Install_dst.zip) file, unzip it and refer to the **README** file for further installation and execution instructions.
 
