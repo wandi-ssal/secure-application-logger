@@ -18,11 +18,14 @@ Error=2
 /***
 This program shows how to use Wandi-SSAL API functions for the free version.
 
-These examples are based on pre-defined fixed parameters values 
-which are listed in the "These adjustable paraeters are fixed 
-for the free version" section of the Capabilities document.
+These examples are based on pre-defined fixed Bound Capability parameter
+values which are listed in the section "These adjustable paraeters are fixed 
+for the free version" of the Capabilities document.
 
-The paid for versions allow these are other parameters to be adjusted dynamically.
+Also, refer to the Wandi-SSAL-Bound-Capabilities.pdf document on how these 
+values are used during validation.
+
+The paid for versions allow these are other parameters to be dynamically adjusted.
 
 ***/
 
