@@ -1,6 +1,6 @@
 <div align="center"> 
   
-#  Free version of Wandi-SSAL (Secure Software Adaptable Logger) is a C-Program application library that validates and generates application log message during development and deployment
+Free version of Wandi-SSAL (Secure Software Adaptable Logger) is a C-Program application library that validates and generates application log message during development and deployment
 
 </div>
 
