@@ -1,13 +1,13 @@
----
-layout: default
-show_edit_link: false
----
+
 <div align="center"> 
   
 <ins>Free version of Wandi-SSAL is a C-Program application library that validates and generates application log message during development and deployment.</ins>
 
 </div>
-
+---
+layout: default
+show_edit_link: false
+---
 The library capabilities are:
 
 1. uses C-Program print() style interface that is often used by programmers to log messages.
