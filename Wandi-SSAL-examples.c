@@ -1,10 +1,6 @@
 #include	<stdlib.h>
 #include	<stdio.h>
 
-extern	int	LoggerStartUp();
-extern	int	LoggerAppsMsg();
-extern	int	LoggerShutDown();
-
 enum components {
 Main=100,
 UI=101
@@ -20,12 +16,10 @@ This program shows how to use Wandi-SSAL API functions for the free version.
 
 These examples are based on pre-defined fixed Bound Capability parameter
 values which are listed in the section "These adjustable paraeters are fixed 
-for the free version" of the Capabilities document.
+for the free version" of the Wandi-SSAL-Capabilities.pdf document.
 
 Also, refer to the Wandi-SSAL-Bound-Capabilities.pdf document on how these 
-values are used during validation.
-
-The paid for versions allow these are other parameters to be dynamically adjusted.
+values are checked and validated.
 
 ***/
 
@@ -53,19 +47,19 @@ int main()
 		3y – Maximum length for format string specifier %s argument is 64 characters.
 	**/
 	LoggerAppsMsg(1,Main,Info,"3y - Maximum length for string specifier [%%s] argument is 64 characters]");
-	LoggerAppsMsg(1,Main,Info,">>>> For example:  [%s]","This string is 64 characters long aaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+	LoggerAppsMsg(1,Main,Info,">>>> For example:  [%s]","Maximum length for string argument is 64 characters...aaaaaaaaa");
 
 	/** Example 4: Length for message format string.
 		4y – Maximum length format string specification is 256 characters.
 	**/
 	LoggerAppsMsg(1,Main,Info,"4y - Maximum length format string specification is 256 characters");
-	LoggerAppsMsg(1,Main,Info,"0 character aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeee to 256 characters");
+	LoggerAppsMsg(1,Main,Info,"For examle Maximum length format string specification is 256 characters...bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeee to 256 characters");
 
 	/** Example 5: Subset of ASCII characters for both string arguments and output format strings.
 		5y - Fixed subset of ASCII characters allowed: uppler/lower case alphanumeric, blank and  !#$%%&()*+,-./:;<=>?@[]_{|} characters.
 	**/
 	LoggerAppsMsg(1,Main,Info,"5y - Fixed subset of ASCII characters allowed: uppler/lower case alphanumeric, blank and ! #$%%&()*+,-./:;<=>?@[]_{|} characters."); // print allowed characters in format string specification
-	LoggerAppsMsg(1,Main,Info,"[%s]", "! #$&()*+,-./:;<=>?@[]_{|}"); // print allowed characters in string argument
+	LoggerAppsMsg(1,Main,Info,"For example ASCII subset is [%s]", "! #$&()*+,-./:;<=>?@[]_{|}"); // print allowed characters in string argument
 	LoggerAppsMsg(1,Main,Info,"%%"); // print %
 	LoggerAppsMsg(1,Main,Info,"100%%"); // print 100%
 	LoggerAppsMsg(1,Main,Info,"%%s = %s","STR"); // print %s = STR
