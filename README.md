@@ -26,6 +26,4 @@ Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application
 
 For Ubuntu 18.04 .6 LTS Linux OS download [Wandi-SSAL-Free-Install_dst.zip](./Wandi-SSAL-Free-Install_dst.zip) file, unzip it and refer to the **README** file for further installation and execution instructions.
 
-Curent and expanding list of [Wandi-SSAL Capabilities](https://www.istech.com/?page_id=570).
-
 Contact: **bwoodley@istech.com**
