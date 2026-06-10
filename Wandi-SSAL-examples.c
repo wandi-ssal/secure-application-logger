@@ -1,6 +1,10 @@
 #include	<stdlib.h>
 #include	<stdio.h>
 
+extern	int	LoggerStartUp();
+extern	int	LoggerAppsMsg();
+extern	int	LoggerShutDown();
+
 enum components {
 Main=100,
 UI=101
