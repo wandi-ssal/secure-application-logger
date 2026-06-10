@@ -26,4 +26,6 @@ Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application
 
 For Linux OS download [Wandi-SSAL-Free-Install_dst.zip](./Wandi-SSAL-Free-Install_dst.zip) file, unzip it and refer to the **README** file for further installation and execution instructions.
 
+The [benefits of this project](Benefit-over-other-logging-systems.pdf) over other logging tools, utilities and systems.
+
 Contact: **bwoodley@istech.com**
