@@ -1,9 +1,6 @@
 #include	<stdlib.h>
 #include	<stdio.h>
-
-extern	int	LoggerStartUp();
-extern	int	LoggerAppsMsg();
-extern	int	LoggerShutDown();
+#include	"LoggerLibFree.h"
 
 enum components {
 Main=100,
