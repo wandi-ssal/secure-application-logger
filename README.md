@@ -5,7 +5,11 @@
 
 </div>
 
-The library capabilities are:
+The primary benefit of this API library over other application loggers, is that it does extensive runtime validation to prevent application from crashing due to common unintentional mis-use of printf() style issues (e.g., passing %s a NULL value, using invalid NULL terminated string value, etc). If any of these runtime validation fails the API function generates an error code and simply returns, allowing the application to continue normal processing.
+
+Refer to [Bound Capability Parameter Validation](Wandi-SSAL-Bound-Capabilities.pdf) to learn more about this robust, fail-safe and reliable API capability.
+
+The library API:
 
 1. uses C-Program print() style interface that is often used by programmers to log messages.
 2. decodes log message strings and arguments into element/value pairs.
@@ -13,7 +17,7 @@ The library capabilities are:
 4. validates element/value pairs for unintentional programmer’s misuse of log argument.
 5. checks element/value pairs for some attackers printf() malicious patterns.
 7. generates log messages for development and deployment environments.
-8. uses a [Bound Capability Parameter Validation](Wandi-SSAL-Bound-Capabilities.pdf) to ensure robust, fail-safe and reliable API functions.
+8. provides robust, fail-safe and reliable API operations.
 
 Quick how to use [Wandi-SSAL API functions in C/C++ Program application.](Wandi-SSAL-Using-API-Function.pdf)
 * Details for [LoggerStartUp()](Wandi-SSAL-API-LoggerStartUp-Function.pdf) function.
@@ -26,6 +30,6 @@ Refer to [Wandi-SSAL-examples.c](Wandi-SSAL-examples.c) for detailed application
 
 For Linux OS download [Wandi-SSAL-Free-Install_dst.zip](./Wandi-SSAL-Free-Install_dst.zip) file, unzip it and refer to the **README** file for further installation and execution instructions.
 
-The [benefits of this project](Benefit-over-other-logging-systems.pdf) over other logging tools, utilities and systems.
+This library is part of another effort to provide [advanced logging capabilities](Benefit-over-other-logging-systems.pdf) over existing logging tools, utilities and systems.
 
 Contact: **bwoodley@istech.com**
