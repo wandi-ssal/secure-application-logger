@@ -32,4 +32,6 @@ For Linux OS download [Wandi-SSAL-Free-Install_dst.zip](./Wandi-SSAL-Free-Instal
 
 This library is part of another effort to provide [advanced logging capabilities](Benefit-over-other-logging-systems.pdf) over existing logging tools, utilities and systems.
 
+Github repository for [files and downloads](https://github.com/wandi-ssal/secure-application-logger)
+
 Contact: **bwoodley@istech.com**
