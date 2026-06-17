@@ -1,6 +1,6 @@
-
+<b>IMPORTANT: The content of this site is replaced with the [Fail-safe Application Logger site](https://github.com/wandi-ssal/fail-safe-application-logger). It is the same information from this site, but was updated to include feedback and recommendations I received. For now, I will leave the content of this site as is, but eventaully this information will be replaced with artifacts related to the Secure Software Adaptable Logger work, which is an extension of the free Fail-Safe Application Logger API library to include protecting application log messages while the software is being developed and when running in a deployed environment. Thank you.</b>
 <div align="center"> 
-  
+
 <ins>Free version of Wandi-SSAL is a C-Program application library that validates and generates application log message during development and deployment.</ins>
 
 </div>
