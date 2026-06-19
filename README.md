@@ -2,7 +2,7 @@ NOTE: The original artifacts of this site moved to [Fail-safe Application Logger
 
 <div align="center">
 
-  ## Provide a Secure Software Adaptable Logger solution not currently available with existing logging tools, utilities or systems
+  <b>Provide a Secure Software Adaptable Logger solution not currently available with existing logging tools, utilities or systems</b>
   
   </div>
 
