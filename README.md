@@ -1,8 +1,8 @@
 NOTE: The original artifacts of this site moved to [Fail-safe Application Logger site](https://github.com/wandi-ssal/fail-safe-application-logger). It is the same information from this site, but was updated to include feedback and recommendations I received. This site will be used for artifacts related to the Secure Software Adaptable Logger work, which is an extension of the free Fail-Safe Application Logger API library to include protecting application log messages while the software is being developed and when running in a deployed environment (as described below).
 
-<div align="left">
+<div align="center">
 
-###  <b><ins>Provide a Secure Software Adaptable Logger solution not currently available with existing logging tools, utilities or systems</ins></b>
+<b><ins>Provide a Secure Software Adaptable Logger solution not currently available with existing logging tools, utilities or systems</ins></b>
   
 </div>
 
